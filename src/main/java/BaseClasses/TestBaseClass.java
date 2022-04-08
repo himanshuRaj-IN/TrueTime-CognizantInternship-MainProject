@@ -12,26 +12,17 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import pages.CabsPage;
-import pages.GiftCardsPage;
-import pages.HotelsPage;
-import pages.LandingPage;
-import pages.SearchPageCabs;
+
 import utilities.CaptureScreenshot;
 import utilities.DriverSetup;
 import utilities.ExtentReportManager;
 
-public class BaseTestClass {
+public class TestBaseClass {
 	public  static org.openqa.selenium.WebDriver driver;
 	public  static ExtentTest logger;
 	public  static ExtentReports report;
 	
-	public static LandingPage landingPage;
-	public static CabsPage cabsPage;
-	public static HotelsPage hotelsPage;
-	public static GiftCardsPage giftCardsPage;
-	public static SearchPageCabs searchPageCabs;
-	private static final Logger Logger = LogManager.getLogger(BaseTestClass.class);
+	private static final Logger Logger = LogManager.getLogger(TestBaseClass.class);
 	
 	@BeforeSuite(alwaysRun = true)
 	public void setup() {

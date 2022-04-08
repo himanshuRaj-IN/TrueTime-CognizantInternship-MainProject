@@ -9,5 +9,6 @@ public class SignInPage extends PagesBaseClass {
 	public SignInPage(WebDriver driver, ExtentTest logger) {
 		super(driver, logger);
 	}
+	
 
 }

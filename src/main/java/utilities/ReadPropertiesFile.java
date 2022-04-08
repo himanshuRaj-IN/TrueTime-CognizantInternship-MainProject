@@ -8,7 +8,6 @@ public class ReadPropertiesFile {
 	
 	
 	/******************** Read Properties File ***********************/
-
 	public  Properties readPropertiesFile() {
 
 		Properties prop = new Properties();

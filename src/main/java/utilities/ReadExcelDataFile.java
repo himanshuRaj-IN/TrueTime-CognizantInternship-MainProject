@@ -17,7 +17,8 @@ public class ReadExcelDataFile {
 	private XSSFRow row = null;
 	private XSSFCell cell = null;
 
-	/****************** Constructor ***********************/
+	
+	/*************************** Constructor *********************************/
 	public ReadExcelDataFile(String path) {
 
 		this.path = path;
@@ -32,7 +33,7 @@ public class ReadExcelDataFile {
 
 	}
 	
-	
+	/*************************** Get Cell Data *******************************/	
 	public String getCellData(String sheetName, int colNum, int rowNum) {
 		try {
 			if (rowNum <= 0)
@@ -68,7 +69,9 @@ public class ReadExcelDataFile {
 			return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
 		}
 	}
-		public String getCellData1(String sheetName, int rowIndex, int columnIndex) {
+	
+	/*************************** Get Cell Data *******************************/
+	public String getCellData1(String sheetName, int rowIndex, int columnIndex) {
 		int sheetIndex = workbook.getSheetIndex(sheetName);
 		if (sheetIndex == -1 || rowIndex < 0 || columnIndex < 0) {
 			return "Sheet Not Found or May be Row or Column is less than 0 ";

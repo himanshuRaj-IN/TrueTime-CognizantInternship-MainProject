@@ -9,14 +9,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverSetup {
 	
-	/************************* Driver Setup *****************/
+	/********************** Driver Setup *****************/
 	public WebDriver driverSetup(WebDriver driver) {
 		
 		ReadPropertiesFile objProp = new ReadPropertiesFile();
 		Properties prop = objProp.readPropertiesFile();		
 		try {
 			if (prop.getProperty("browserName").equalsIgnoreCase("chrome")) {
-				//System.setProperty("webdriver.chrome.silentOutput","true");
 				System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (prop.getProperty("browserName").equalsIgnoreCase("firefox")) {

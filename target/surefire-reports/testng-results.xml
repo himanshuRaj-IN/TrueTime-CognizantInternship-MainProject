@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="42" total="63" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T22:11:49 IST" name="Suite" finished-at="2022-04-04T22:14:10 IST" duration-ms="141212">
+    <groups>
+      <group name="Regression">
+        <method signature="CheckSearchButtonTest.checkSearchButton()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest@60975100]" name="checkSearchButton" class="testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest"/>
+        <method signature="CitySelection_FROMTest.citySelection_FROM()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454]" name="citySelection_FROM" class="testCases.FillingCabsDetails.CitySelection_FROMTest"/>
+        <method signature="CitySelection_TOTest.citySelection_TO()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_TOTest@3d97a632]" name="citySelection_TO" class="testCases.FillingCabsDetails.CitySelection_TOTest"/>
+        <method signature="FilterCabsByCabType.filterCabsByCabType()[pri:0, instance:testCases.SearchResultFilters.FilterCabsByCabType@5cdd09b1]" name="filterCabsByCabType" class="testCases.SearchResultFilters.FilterCabsByCabType"/>
+        <method signature="GetListOfAdultOption.listOfAdultOption()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption@53142455]" name="listOfAdultOption" class="testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption"/>
+        <method signature="SearchcabsfromdelhitomanaliTest.searchcabsfromdelhitomanali()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest@37efd131]" name="searchcabsfromdelhitomanali" class="testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest"/>
+        <method signature="SelectDepartureDate.selectDepatureDate()[pri:0, instance:testCases.FillingCabsDetails.SelectDepartureDate@8c11eee]" name="selectDepatureDate" class="testCases.FillingCabsDetails.SelectDepartureDate"/>
+        <method signature="SendersDetailsWithInvalidEmailTest.sendersDetailsWithInValidEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest@fcb4004]" name="sendersDetailsWithInValidEmail" class="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest"/>
+        <method signature="SendersDetailsWithInvalidMobileNumTest.sendersDetailsWithInValidMobileNumber()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest@1dd6d4b7]" name="sendersDetailsWithInValidMobileNumber" class="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest"/>
+        <method signature="SendersDetailsWithoutEmailTest.sendersDetailsWithoutEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest@784c3487]" name="sendersDetailsWithoutEmail" class="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest"/>
+        <method signature="SendersDetailsWithoutMobileNumTest.sendersDetailsWithoutMobileNum()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest@7e8dcdaa]" name="sendersDetailsWithoutMobileNum" class="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest"/>
+        <method signature="SendersDetailsWithoutNameTest.sendersDetailsWithoutName()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest@1253e7cb]" name="sendersDetailsWithoutName" class="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest"/>
+        <method signature="VerifyRoomDetailBox.checkRoomDetailBox()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox@302a07d]" name="checkRoomDetailBox" class="testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CheckCabsOption.checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@366c4480]" name="checkCabsOption" class="testCases.CabsPageSelectionFromMenu.CheckCabsOption"/>
+        <method signature="CheckHotelOption.checkHotelOption()[pri:0, instance:testCases.HotelsPageSelection.CheckHotelOption@616fe72b]" name="checkHotelOption" class="testCases.HotelsPageSelection.CheckHotelOption"/>
+        <method signature="EmptySendersDetailsTest.EmptysendersdetailsTest()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest@2dd29a59]" name="EmptysendersdetailsTest" class="testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest"/>
+        <method signature="NavigateCabsPageTest.navigateCabsPageTest()[pri:0, instance:testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest@56e8b606]" name="navigateCabsPageTest" class="testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest"/>
+        <method signature="NavigateGiftCardsPageTest.navigateGiftCardsPageTest()[pri:0, instance:testCases.GiftCardPageSelection.NavigateGiftCardsPageTest@3b0c9195]" name="navigateGiftCardsPageTest" class="testCases.GiftCardPageSelection.NavigateGiftCardsPageTest"/>
+        <method signature="PickupTimeSelection.pickupTimeSelection()[pri:0, instance:testCases.FillingCabsDetails.PickupTimeSelection@77a7cf58]" name="pickupTimeSelection" class="testCases.FillingCabsDetails.PickupTimeSelection"/>
+        <method signature="SelectCorporateGiftTest.selectCorporateGiftTest()[pri:0, instance:testCases.GiftCardPageSelection.SelectCorporateGiftTest@7e7b159b]" name="selectCorporateGiftTest" class="testCases.GiftCardPageSelection.SelectCorporateGiftTest"/>
+        <method signature="VerifyUrlAfterClickOnHotel.verifyUrlOfHotel()[pri:0, instance:testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel@7e5d9a50]" name="verifyUrlOfHotel" class="testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-04-04T22:11:49 IST" name="Test" finished-at="2022-04-04T22:14:10 IST" duration-ms="141212">
+      <class name="testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest">
+        <test-method signature="searchcabsfromdelhitomanali()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest@37efd131]" started-at="2022-04-04T22:12:11 IST" name="searchcabsfromdelhitomanali" finished-at="2022-04-04T22:12:27 IST" duration-ms="15771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcabsfromdelhitomanali -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest@37efd131]" started-at="2022-04-04T22:12:27 IST" name="setTestResult" finished-at="2022-04-04T22:12:27 IST" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchcabsfromdelhitomanali status=SUCCESS method=SearchcabsfromdelhitomanaliTest.searchcabsfromdelhitomanali()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest@37efd131] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest">
+        <test-method signature="sendersDetailsWithoutMobileNum()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest@7e8dcdaa]" started-at="2022-04-04T22:14:04 IST" name="sendersDetailsWithoutMobileNum" finished-at="2022-04-04T22:14:10 IST" duration-ms="6440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendersDetailsWithoutMobileNum -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest@7e8dcdaa]" started-at="2022-04-04T22:14:10 IST" name="setTestResult" finished-at="2022-04-04T22:14:10 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendersDetailsWithoutMobileNum status=SUCCESS method=SendersDetailsWithoutMobileNumTest.sendersDetailsWithoutMobileNum()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest@7e8dcdaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest">
+        <test-method signature="sendersDetailsWithoutName()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest@1253e7cb]" started-at="2022-04-04T22:13:21 IST" name="sendersDetailsWithoutName" finished-at="2022-04-04T22:13:29 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendersDetailsWithoutName -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest@1253e7cb]" started-at="2022-04-04T22:13:29 IST" name="setTestResult" finished-at="2022-04-04T22:13:29 IST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendersDetailsWithoutName status=SUCCESS method=SendersDetailsWithoutNameTest.sendersDetailsWithoutName()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest@1253e7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest -->
+      <class name="testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel">
+        <test-method signature="verifyUrlOfHotel()[pri:0, instance:testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel@7e5d9a50]" started-at="2022-04-04T22:12:33 IST" name="verifyUrlOfHotel" finished-at="2022-04-04T22:12:37 IST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfHotel -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel@7e5d9a50]" started-at="2022-04-04T22:12:37 IST" name="setTestResult" finished-at="2022-04-04T22:12:38 IST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlOfHotel status=SUCCESS method=VerifyUrlAfterClickOnHotel.verifyUrlOfHotel()[pri:0, instance:testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel@7e5d9a50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel -->
+      <class name="testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest">
+        <test-method signature="checkSearchButton()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest@60975100]" started-at="2022-04-04T22:13:16 IST" name="checkSearchButton" finished-at="2022-04-04T22:13:21 IST" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchButton -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest@60975100]" started-at="2022-04-04T22:13:21 IST" name="setTestResult" finished-at="2022-04-04T22:13:21 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSearchButton status=SUCCESS method=CheckSearchButtonTest.checkSearchButton()[pri:0, instance:testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest@60975100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest -->
+      <class name="testCases.GiftCardPageSelection.NavigateGiftCardsPageTest">
+        <test-method signature="navigateGiftCardsPageTest()[pri:0, instance:testCases.GiftCardPageSelection.NavigateGiftCardsPageTest@3b0c9195]" started-at="2022-04-04T22:13:29 IST" name="navigateGiftCardsPageTest" finished-at="2022-04-04T22:13:33 IST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateGiftCardsPageTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.GiftCardPageSelection.NavigateGiftCardsPageTest@3b0c9195]" started-at="2022-04-04T22:13:33 IST" name="setTestResult" finished-at="2022-04-04T22:13:34 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateGiftCardsPageTest status=SUCCESS method=NavigateGiftCardsPageTest.navigateGiftCardsPageTest()[pri:0, instance:testCases.GiftCardPageSelection.NavigateGiftCardsPageTest@3b0c9195] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.GiftCardPageSelection.NavigateGiftCardsPageTest -->
+      <class name="testCases.SearchResultFilters.FilterCabsByCabType">
+        <test-method signature="filterCabsByCabType()[pri:0, instance:testCases.SearchResultFilters.FilterCabsByCabType@5cdd09b1]" started-at="2022-04-04T22:13:42 IST" name="filterCabsByCabType" finished-at="2022-04-04T22:13:57 IST" duration-ms="15607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterCabsByCabType -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.SearchResultFilters.FilterCabsByCabType@5cdd09b1]" started-at="2022-04-04T22:13:57 IST" name="setTestResult" finished-at="2022-04-04T22:13:58 IST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterCabsByCabType status=SUCCESS method=FilterCabsByCabType.filterCabsByCabType()[pri:0, instance:testCases.SearchResultFilters.FilterCabsByCabType@5cdd09b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.SearchResultFilters.FilterCabsByCabType -->
+      <class name="testCases.CabsPageSelectionFromMenu.CheckCabsOption">
+        <test-method signature="checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@366c4480]" started-at="2022-04-04T22:13:34 IST" name="checkCabsOption" finished-at="2022-04-04T22:13:37 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCabsOption -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@366c4480]" started-at="2022-04-04T22:13:37 IST" name="setTestResult" finished-at="2022-04-04T22:13:37 IST" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCabsOption status=SUCCESS method=CheckCabsOption.checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@366c4480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.CabsPageSelectionFromMenu.CheckCabsOption -->
+      <class name="testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest">
+        <test-method signature="navigateCabsPageTest()[pri:0, instance:testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest@56e8b606]" started-at="2022-04-04T22:12:53 IST" name="navigateCabsPageTest" finished-at="2022-04-04T22:12:58 IST" duration-ms="4929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateCabsPageTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest@56e8b606]" started-at="2022-04-04T22:12:58 IST" name="setTestResult" finished-at="2022-04-04T22:12:58 IST" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateCabsPageTest status=SUCCESS method=NavigateCabsPageTest.navigateCabsPageTest()[pri:0, instance:testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest@56e8b606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest -->
+      <class name="testCases.HotelsPageSelection.CheckHotelOption">
+        <test-method signature="checkHotelOption()[pri:0, instance:testCases.HotelsPageSelection.CheckHotelOption@616fe72b]" started-at="2022-04-04T22:12:07 IST" name="checkHotelOption" finished-at="2022-04-04T22:12:11 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelOption -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.HotelsPageSelection.CheckHotelOption@616fe72b]" started-at="2022-04-04T22:12:11 IST" name="setTestResult" finished-at="2022-04-04T22:12:11 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkHotelOption status=SUCCESS method=CheckHotelOption.checkHotelOption()[pri:0, instance:testCases.HotelsPageSelection.CheckHotelOption@616fe72b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.HotelsPageSelection.CheckHotelOption -->
+      <class name="testCases.FillingCabsDetails.SelectDepartureDate">
+        <test-method signature="selectDepatureDate()[pri:0, instance:testCases.FillingCabsDetails.SelectDepartureDate@8c11eee]" started-at="2022-04-04T22:13:58 IST" name="selectDepatureDate" finished-at="2022-04-04T22:14:04 IST" duration-ms="5897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDepatureDate -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCabsDetails.SelectDepartureDate@8c11eee]" started-at="2022-04-04T22:14:04 IST" name="setTestResult" finished-at="2022-04-04T22:14:04 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectDepatureDate status=SUCCESS method=SelectDepartureDate.selectDepatureDate()[pri:0, instance:testCases.FillingCabsDetails.SelectDepartureDate@8c11eee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCabsDetails.SelectDepartureDate -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest">
+        <test-method signature="sendersDetailsWithoutEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest@784c3487]" started-at="2022-04-04T22:13:04 IST" name="sendersDetailsWithoutEmail" finished-at="2022-04-04T22:13:11 IST" duration-ms="6860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendersDetailsWithoutEmail -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest@784c3487]" started-at="2022-04-04T22:13:11 IST" name="setTestResult" finished-at="2022-04-04T22:13:11 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendersDetailsWithoutEmail status=SUCCESS method=SendersDetailsWithoutEmailTest.sendersDetailsWithoutEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest@784c3487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest">
+        <test-method signature="EmptysendersdetailsTest()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest@2dd29a59]" started-at="2022-04-04T22:12:58 IST" name="EmptysendersdetailsTest" finished-at="2022-04-04T22:13:04 IST" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptysendersdetailsTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest@2dd29a59]" started-at="2022-04-04T22:13:04 IST" name="setTestResult" finished-at="2022-04-04T22:13:04 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmptysendersdetailsTest status=SUCCESS method=EmptySendersDetailsTest.EmptysendersdetailsTest()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest@2dd29a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest">
+        <test-method signature="sendersDetailsWithInValidEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest@fcb4004]" started-at="2022-04-04T22:12:38 IST" name="sendersDetailsWithInValidEmail" finished-at="2022-04-04T22:12:45 IST" duration-ms="7090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendersDetailsWithInValidEmail -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest@fcb4004]" started-at="2022-04-04T22:12:45 IST" name="setTestResult" finished-at="2022-04-04T22:12:45 IST" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendersDetailsWithInValidEmail status=SUCCESS method=SendersDetailsWithInvalidEmailTest.sendersDetailsWithInValidEmail()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest@fcb4004] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest">
+        <test-method signature="sendersDetailsWithInValidMobileNumber()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest@1dd6d4b7]" started-at="2022-04-04T22:12:45 IST" name="sendersDetailsWithInValidMobileNumber" finished-at="2022-04-04T22:12:52 IST" duration-ms="7254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendersDetailsWithInValidMobileNumber -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest@1dd6d4b7]" started-at="2022-04-04T22:12:52 IST" name="setTestResult" finished-at="2022-04-04T22:12:53 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendersDetailsWithInValidMobileNumber status=SUCCESS method=SendersDetailsWithInvalidMobileNumTest.sendersDetailsWithInValidMobileNumber()[pri:0, instance:testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest@1dd6d4b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest -->
+      <class name="testCases.FillingCabsDetails.CitySelection_TOTest">
+        <test-method signature="citySelection_TO()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_TOTest@3d97a632]" started-at="2022-04-04T22:12:01 IST" name="citySelection_TO" finished-at="2022-04-04T22:12:07 IST" duration-ms="5273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelection_TO -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCabsDetails.CitySelection_TOTest@3d97a632]" started-at="2022-04-04T22:12:07 IST" name="setTestResult" finished-at="2022-04-04T22:12:07 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=citySelection_TO status=SUCCESS method=CitySelection_TOTest.citySelection_TO()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_TOTest@3d97a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCabsDetails.CitySelection_TOTest -->
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox">
+        <test-method signature="checkRoomDetailBox()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox@302a07d]" started-at="2022-04-04T22:13:37 IST" name="checkRoomDetailBox" finished-at="2022-04-04T22:13:42 IST" duration-ms="4281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRoomDetailBox -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox@302a07d]" started-at="2022-04-04T22:13:42 IST" name="setTestResult" finished-at="2022-04-04T22:13:42 IST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRoomDetailBox status=SUCCESS method=VerifyRoomDetailBox.checkRoomDetailBox()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox@302a07d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox -->
+      <class name="testCases.FillingCabsDetails.CitySelection_FROMTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454]" started-at="2022-04-04T22:11:46 IST" name="setup" finished-at="2022-04-04T22:11:49 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="citySelection_FROM()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454]" started-at="2022-04-04T22:11:49 IST" name="citySelection_FROM" finished-at="2022-04-04T22:11:55 IST" duration-ms="6143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelection_FROM -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454]" started-at="2022-04-04T22:11:55 IST" name="setTestResult" finished-at="2022-04-04T22:11:55 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=citySelection_FROM status=SUCCESS method=CitySelection_FROMTest.citySelection_FROM()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FillingCabsDetails.CitySelection_FROMTest@44040454]" started-at="2022-04-04T22:14:10 IST" name="tearDown" finished-at="2022-04-04T22:14:12 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.FillingCabsDetails.CitySelection_FROMTest -->
+      <class name="testCases.FillingCabsDetails.PickupTimeSelection">
+        <test-method signature="pickupTimeSelection()[pri:0, instance:testCases.FillingCabsDetails.PickupTimeSelection@77a7cf58]" started-at="2022-04-04T22:11:55 IST" name="pickupTimeSelection" finished-at="2022-04-04T22:12:01 IST" duration-ms="5804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickupTimeSelection -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.FillingCabsDetails.PickupTimeSelection@77a7cf58]" started-at="2022-04-04T22:12:01 IST" name="setTestResult" finished-at="2022-04-04T22:12:01 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pickupTimeSelection status=SUCCESS method=PickupTimeSelection.pickupTimeSelection()[pri:0, instance:testCases.FillingCabsDetails.PickupTimeSelection@77a7cf58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.FillingCabsDetails.PickupTimeSelection -->
+      <class name="testCases.GiftCardPageSelection.SelectCorporateGiftTest">
+        <test-method signature="selectCorporateGiftTest()[pri:0, instance:testCases.GiftCardPageSelection.SelectCorporateGiftTest@7e7b159b]" started-at="2022-04-04T22:12:27 IST" name="selectCorporateGiftTest" finished-at="2022-04-04T22:12:33 IST" duration-ms="6156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCorporateGiftTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.GiftCardPageSelection.SelectCorporateGiftTest@7e7b159b]" started-at="2022-04-04T22:12:33 IST" name="setTestResult" finished-at="2022-04-04T22:12:33 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCorporateGiftTest status=SUCCESS method=SelectCorporateGiftTest.selectCorporateGiftTest()[pri:0, instance:testCases.GiftCardPageSelection.SelectCorporateGiftTest@7e7b159b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.GiftCardPageSelection.SelectCorporateGiftTest -->
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption">
+        <test-method signature="listOfAdultOption()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption@53142455]" started-at="2022-04-04T22:13:11 IST" name="listOfAdultOption" finished-at="2022-04-04T22:13:16 IST" duration-ms="5588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfAdultOption -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption@53142455]" started-at="2022-04-04T22:13:16 IST" name="setTestResult" finished-at="2022-04-04T22:13:16 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listOfAdultOption status=SUCCESS method=GetListOfAdultOption.listOfAdultOption()[pri:0, instance:testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption@53142455] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

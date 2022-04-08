@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-08T15:47:13 IST" name="Default suite" finished-at="2022-04-08T15:47:18 IST" duration-ms="4684">
+    <groups>
+      <group name="Smoke">
+        <method signature="CheckCabsOption.checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5]" name="checkCabsOption" class="testCases.CabsPageSelectionFromMenu.CheckCabsOption"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-04-08T15:47:13 IST" name="Default test" finished-at="2022-04-08T15:47:18 IST" duration-ms="4684">
+      <class name="testCases.CabsPageSelectionFromMenu.CheckCabsOption">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5]" started-at="2022-04-08T15:47:11 IST" name="setup" finished-at="2022-04-08T15:47:13 IST" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5]" started-at="2022-04-08T15:47:13 IST" name="checkCabsOption" finished-at="2022-04-08T15:47:17 IST" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCabsOption -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5]" started-at="2022-04-08T15:47:17 IST" name="setTestResult" finished-at="2022-04-08T15:47:18 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCabsOption status=SUCCESS method=CheckCabsOption.checkCabsOption()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CabsPageSelectionFromMenu.CheckCabsOption@3f363cf5]" started-at="2022-04-08T15:47:18 IST" name="tearDown" finished-at="2022-04-08T15:47:19 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CabsPageSelectionFromMenu.CheckCabsOption -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

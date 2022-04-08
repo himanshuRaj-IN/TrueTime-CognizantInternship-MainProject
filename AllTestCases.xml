@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.Transformation" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.FillingCabsDetails.CitySelection_FROMTest"/>
+      <class name="testCases.FillingCabsDetails.PickupTimeSelection"/>
+      <class name="testCases.FillingCabsDetails.CitySelection_TOTest"/>
+      <class name="testCases.HotelsPageSelection.CheckHotelOption"/>
+      <class name="testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest"/>
+      <class name="testCases.GiftCardPageSelection.SelectCorporateGiftTest"/>
+      <class name="testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel"/>
+      <class name="testCases.SearchButtonFunctionalityCabsPage.SearchCabsFromToDataDrivenTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest"/>
+      <class name="testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithVaildEmailTest"/>
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption"/>
+      <class name="testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest"/>
+      <class name="testCases.GiftCardPageSelection.NavigateGiftCardsPageTest"/>
+      <class name="testCases.CabsPageSelectionFromMenu.CheckCabsOption"/>
+      <class name="BaseClasses.BaseTestClass"/>
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox"/>
+      <class name="testCases.SearchResultFilters.FilterCabsByCabType"/>
+      <class name="testCases.FillingCabsDetails.SelectDepartureDate"/>
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest"/>
+      <class name="testCases.SearchResultFilters.FilterCabsByPrice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

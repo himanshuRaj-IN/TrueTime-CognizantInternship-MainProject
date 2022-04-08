@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.Transformation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.SearchResultFilters.FilterCabsByCabType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="filterCabsByCabType"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.SearchResultFilters.FilterCabsByCabType -->
+      <class name="testCases.CabsPageSelectionFromMenu.CheckCabsOption">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkCabsOption"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.CabsPageSelectionFromMenu.CheckCabsOption -->
+      <class name="testCases.SearchButtonFunctionalityCabsPage.SearchCabsFromToDataDrivenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchCabsFromToDataDrivenTest" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.SearchButtonFunctionalityCabsPage.SearchCabsFromToDataDrivenTest -->
+      <class name="testCases.FillingCabsDetails.PickupTimeSelection">
+        <methods>
+          <include name="pickupTimeSelection"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCabsDetails.PickupTimeSelection -->
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption">
+        <methods>
+          <include name="tearDown"/>
+          <include name="listOfAdultOption"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.VerifyRoomsandAdultsfromHotelsPage.GetListOfAdultOption -->
+      <class name="testCases.GiftCardPageSelection.NavigateGiftCardsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateGiftCardsPageTest"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.GiftCardPageSelection.NavigateGiftCardsPageTest -->
+      <class name="testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkRoomDetailBox"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.VerifyRoomsandAdultsfromHotelsPage.VerifyRoomDetailBox -->
+      <class name="testCases.SearchResultFilters.FilterCabsByPrice">
+        <methods>
+          <include name="tearDown"/>
+          <include name="filterCabsByCabType"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.SearchResultFilters.FilterCabsByPrice -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest">
+        <methods>
+          <include name="EmptysendersdetailsTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.EmptySendersDetailsTest -->
+      <class name="testCases.HotelsPageSelection.CheckHotelOption">
+        <methods>
+          <include name="checkHotelOption"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.HotelsPageSelection.CheckHotelOption -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithVaildEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithValidEmail"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithVaildEmailTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithInValidEmail"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidEmailTest -->
+      <class name="testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchcabsfromdelhitomanali"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.SearchButtonFunctionalityCabsPage.SearchcabsfromdelhitomanaliTest -->
+      <class name="testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUrlOfHotel"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.HotelsPageSelection.VerifyUrlAfterClickOnHotel -->
+      <class name="testCases.FillingCabsDetails.SelectDepartureDate">
+        <methods>
+          <include name="selectDepatureDate"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCabsDetails.SelectDepartureDate -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithInValidMobileNumber"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithInvalidMobileNumTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithoutEmail"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutEmailTest -->
+      <class name="testCases.GiftCardPageSelection.SelectCorporateGiftTest">
+        <methods>
+          <include name="selectCorporateGiftTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.GiftCardPageSelection.SelectCorporateGiftTest -->
+      <class name="testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest">
+        <methods>
+          <include name="navigateCabsPageTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.CabsPageSelectionFromMenu.NavigateCabsPageTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithoutName"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutNameTest -->
+      <class name="testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendersDetailsWithoutMobileNum"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCorporateGiftCardCredentials.SendersDetailsWithoutMobileNumTest -->
+      <class name="testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest">
+        <methods>
+          <include name="checkSearchButton"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.SearchButtonFunctionalityCabsPage.CheckSearchButtonTest -->
+      <class name="testCases.FillingCabsDetails.CitySelection_FROMTest">
+        <methods>
+          <include name="citySelection_FROM"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCabsDetails.CitySelection_FROMTest -->
+      <class name="testCases.FillingCabsDetails.CitySelection_TOTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="citySelection_TO"/>
+          <include name="setup"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- testCases.FillingCabsDetails.CitySelection_TOTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
